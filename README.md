@@ -12,6 +12,7 @@ of files.
 - 404 page
 - Default to /index.html
 - Binary content not supported
+- You need `<base href="..."/>`
 
 ## What to do
 

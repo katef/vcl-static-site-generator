@@ -17,7 +17,7 @@ fi
 htdocs="$1"
 
 urlencode() {
-	perl -p -e 's/([^[:print:]]|["%])/sprintf("%%%02X", ord($1))/seg'
+	perl -p -e 's/([^[:print:]]|["%\\])/sprintf("%%%02X", ord($1))/seg'
 }
 
 vclstr() {

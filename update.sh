@@ -37,6 +37,7 @@ kv() {
 (
 	echo 'table body {'
 	find "$htdocs" -type f \
+	| grep -v '^\.' \
 	| cut -f2- -d/ \
 	| while read -r path; do
 		cat "$htdocs/$path" | kv "/$path"

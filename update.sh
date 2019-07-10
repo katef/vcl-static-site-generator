@@ -1,7 +1,7 @@
 #!/bin/sh -e
 
 usage() {
-	echo 'usage: KEY=... SID=... SNIPPET=... synth.sh <dir>'
+	echo 'usage: KEY=... SID=... SNIPPET=... update.sh <dir>'
 }
 
 if [ ! -d "$1" ]; then

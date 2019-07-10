@@ -9,6 +9,7 @@ table type {
   "txt":  "text/plain",
   "css":  "text/css",
   "js":   "text/javascript",
+  "json": "application/json" 
 }
 
 sub vcl_recv {
